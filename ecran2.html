@@ -1,0 +1,782 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Portail EFFI-COM</title>
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style2.css">
+</head>
+<body>
+<div class="bar-left" id="bar-left">
+    aaa 
+</div>
+<!-- Start Header -->
+<header id="header"><!-- ID for JS -->
+    <div class="left-header" id="left-header">
+        <i class="fa fa-list" style="border-right: 1px solid rgb(92, 88, 88);padding-right:5px;cursor: pointer"></i>
+    </div>
+    <div class="right-header">
+        <ul>
+            <li><a><i class="fa fa-envelope-open" aria-hidden="true"></i></a></li>
+            <li><a><i class="fa fa-bell" aria-hidden="true"></i></a></li>
+            <li><a><i class="fa fa-bell" aria-hidden="true"></i></a></li>
+            <li><a><i class="fa fa-circle" aria-hidden="true"></i><span> Alexander Plerce</span></a></li>
+            <li class="li-cog"><a><i class="fa fa-cog" aria-hidden="true"></i></a></li>
+            <li><a><i class="fa fa-power-off" aria-hidden="true"></i></a></li>
+        </ul>
+    </div>
+</header>  
+<!-- End Header -->
+
+<!-- Start Main -->
+<main>
+    <div class="top-search">
+        <div class="container">
+            <div class="top-search-left">
+                <button for="retour">retour</button>
+                <button for="valider">valider</button>
+                <button for="relance">relance</button>
+                <button for="partager">partager</button>
+                <button for="supprimer">supprimer</button>
+            </div>
+            <div class="top-search-right">
+                <button class="jaune" for="dossier">A0812</button>
+                <button>Ouvrir un autre dossier</button>
+                <button class="jaune"><i class="fa -fa-cog"></i>OK</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="detail-de-la-commande">
+        <div class="container">
+            <div class="detail-de-la-commande-border">
+                <h1>détail de la commande</h1>
+                
+                <div class="info-commande">
+                    <div>
+                        <label>
+                            <span class="gras">Commande:</span>
+                            <span>N 008105</span>
+                        </label>
+                        <label>
+                            <span class="gras">N° d’Ordre:</span>
+                            <span></span>
+                        </label>
+                        <label>
+                            <span class="gras">Chassis:</span>
+                            <span></span>
+                        </label>
+                        <label>
+                            <span class="gras">Immat:</span>
+                            <span></span>
+                        </label>                                        
+                    </div>
+                    <div>
+                        <label>
+                            <span  class="gras">Nom client Distrinet:</span>
+                            <span></span>
+                        </label>
+                        <label>
+                            <span  class="gras">Affaire propriétaire:</span>
+                            <span></span>
+                        </label>
+                        <label>
+                            <span  class="gras">Modèle véhicule:</span>
+                            <span></span>
+                        </label>                                        
+                    </div>
+                    <div>
+                        <label>
+                            <span class="gras">Vendeur:</span>
+                            <span></span>
+                        </label>
+                        <label>
+                            <span class="gras">CDV:</span>
+                            <span></span>
+                        </label>
+                        <label>
+                            <span  class="gras">Secrétaire:</span>
+                            <span></span>
+                        </label>                                       
+                    </div>
+                    <div style="border-right: 0;position: relative;margin-right: 0">
+                        <h2>Etat d'avancement</h2>
+                        <span class="preg-pourcentage">60%</span>
+                        <span class="prog-bar">
+                            <span>6</span>
+                        </span>                                      
+                    </div>                                                
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="box-bottom">
+        <div class="container">
+
+            <input id="tab1" type="radio" name="tabs" checked>
+            <label class="label" for="tab1">Informations</label>
+
+            <input id="tab2" type="radio" name="tabs">
+            <label class="label" for="tab2">Documents</label>
+
+            <input id="tab3" type="radio" name="tabs">
+            <label class="label" for="tab3">Messages</label>
+
+            <input id="tab4" type="radio" name="tabs">
+            <label class="label" for="tab4">Historique status</label>
+
+            <input id="tab5" type="radio" name="tabs">
+            <label class="label" for="tab5">Feuilles de gestion</label>
+
+            <div class="box-bottom-info-content1" id="content1">
+                <div class="column1">
+                    <div>
+                        <h1>commentaire
+                            <label>
+                                <span>B</span>
+                                <span>I</span>
+                                <span style="text-decoration: underline;">U</span>
+                                <span>HTML</span>
+                                <span ><i class="fa fa-align-left"></i></span>
+                                <span ><i class="fa fa-align-center"></i></span>
+                                <span ><i class="fa fa-align-right"></i></span>
+                                <span ><i class="fa fa-font"></i></span>
+                            </label>
+                        </h1>
+                        <textarea name="" id="" cols="30" rows="10"  data-role="none"> Immat 45
+                        </textarea>
+                    </div>
+                    <div>
+                        <h1>livraison client <span style="font-size: 10px">(Kheops)</span> </h1>
+                        <p>
+                            Adresse de livraison<br><br>
+                            Date de RDV client<br>
+                            Date de livraison
+                        </p>
+                    </div>
+                    <div>
+                        <h1>informations diac</h1>
+                        <p>
+                            N DIAC<br>                           
+                            N DIAC Log<br><br>
+                            Num Dossier DIAC : <br>
+                            Barême financement : <br>
+                            Statut DIAC : 
+                        </p>
+                    </div>
+                </div>
+                <div class="column2">
+                    
+                    <div class="box-check">
+                        <h1>conditions du dossier</h1>
+                        <div>
+                            <div>
+                               <label><input type="checkbox" name="vehicle" value="Bike">Accessoires</label>
+                               <label><input type="checkbox" name="vehicle" value="Bike">code 10</label>
+                               <label><input type="checkbox" name="vehicle" value="Bike">contrat service</label>
+                               <label><input type="checkbox" name="vehicle" value="Bike">E/R</label>
+                               <label><input type="checkbox" name="vehicle" value="Bike">gravage</label>
+                               <label><input type="checkbox" name="vehicle" value="Bike">lld</label>
+                               <label><input type="checkbox" name="vehicle" value="Bike">reforme b</label>
+                               <label><input type="checkbox" name="vehicle" value="Bike">traveaux ext.</label>
+                               <label><input type="checkbox" name="vehicle" value="Bike">vs</label>
+                            </div>
+                            <div>
+                               <label><input type="checkbox" name="vehicle" value="Bike">agent</label>
+                               <label><input type="checkbox" name="vehicle" value="Bike">code 3</label>
+                               <label><input type="checkbox" name="vehicle" value="Bike">diac</label>
+                               <label><input type="checkbox" name="vehicle" value="Bike">entreprise</label>
+                               <label><input type="checkbox" name="vehicle" value="Bike">lcd</label>
+                               <label><input type="checkbox" name="vehicle" value="Bike">loueur</label>
+                               <label><input type="checkbox" name="vehicle" value="Bike">renault rent</label>
+                               <label><input type="checkbox" name="vehicle" value="Bike">var</label>
+                               <label><input type="checkbox" name="vehicle" value="Bike">ze</label>
+                            </div>
+                            <div>
+                               <label><input type="checkbox" name="vehicle" value="Bike">cnr Pro+</label>
+                               <label><input type="checkbox" name="vehicle" value="Bike">code flotte</label>
+                               <label><input type="checkbox" name="vehicle" value="Bike">diac loc</label>
+                               <label><input type="checkbox" name="vehicle" value="Bike">financement</label>
+                               <label><input type="checkbox" name="vehicle" value="Bike">livraison ext.</label>
+                               <label><input type="checkbox" name="vehicle" value="Bike">particulier</label>
+                               <label><input type="checkbox" name="vehicle" value="Bike">transport</label>
+                               <label><input type="checkbox" name="vehicle" value="Bike">vo</label>
+                            </div>    
+                        </div>                                          
+                    </div>
+                    <div>
+                        <h1>Aide constructeur</h1>
+                        <p>
+                            RPE 1,86 : 5932,72€<br>
+                            POOL : 500€ 
+                        </p>
+                    </div>
+                    <div>
+                        <h1>point facturation</h1>
+                        <p>
+                            Facture constructeur<br>                      
+                            Facture client<br>                      
+                            N client<br>                      
+                            Date de facture<br>                      
+                            Montant<br>                      
+                            Bonus<br>                      
+                            Tarif achat<br>                      
+                            Tarif vente<br>                      
+                        </p>
+                    </div>
+                    <div>
+                        <h1>OTS</h1>
+                        <p>
+                            L'accès au service OTS : Disponible<br>                      
+                            Disponible<br>  
+                            <span style="color: red">Aucun OTS</span>                                       
+                        </p>                        
+                    </div>
+                </div>
+                <div class="column3">
+                    <div class="deux-colonne">
+                        <h1>commande client (FG)</h1>
+                        <div>
+                            <div>
+                                <p>
+                                    Nom du Client ISIS <br>
+                                    Nom Sté Cliente <br>
+                                    Nom Conducteur <br>
+                                    Nom du Loueur <br>
+                                    N° Loueur <br>
+                                    Nom du client ISIS <br> <br>
+                                    Commune <br>
+                                    Téléphone <br>
+                                    Modèle <br>
+                                    Version <br>
+                                </p>
+                            </div>
+                            <div>
+                                <p>
+                                    <br><br>
+                                    Date de liv souhaitée <br>
+                                    Prix catalogue <br>
+                                    Options <br>
+                                    Gravage <br>
+                                    Contrat service <br>
+                                    Accessoires <br>
+                                    Transport <br><br>
+                                    Aides constructeur
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="deux-colonne">
+                        <h1>commande véhicule</h1>
+                        <div>
+                            <div>
+                                <p>
+                                    Nom du client ISIS <br>
+                                    Num commande <br>
+                                    Ordre <br>
+                                    Chassis <br>
+                                    Immat <br><br>
+                                    Marque <br>
+                                    Modèle <br>
+                                    Version <br>
+                                    Type commande <br>
+                                    CNR Pro+ <br>
+                                </p>
+                            </div>
+                            <div>
+                                <p>
+                                    <br>
+                                    Date commande <br>
+                                    Date liv souhaitée <br>
+                                    Date d’affectation veh <br>
+                                    Date MADA prév <br>
+                                    Date MADA Engagement  <br>
+                                    Date MADC <br>
+                                    Date immatriculation  <br>
+                                    Date facture  <br>
+                                    Date livraison client  <br>
+                                    Date annulation  <br>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                    <h1>activeservice</h1>
+                        <p>
+                            contrat FG<br> <br>                     
+                            Informations Sigma : DIsponible<br>
+                            <span style="color: red"> Aucun Contrat</span>
+                                         
+                        </p>  
+                    </div> 
+                </div>      
+            </div>
+            <div class="box-bottom-info-content2" id="content2">
+                <div class="import">
+                    <span>import à distribuer</span>
+                    <input type="text">
+                </div>
+                <div class="list">
+                    <h1>list des documents attendus</h1>
+                    <div class="grid">
+                        <div class="colonne actions">
+                            <span></span>
+                            <span>Ajouter un nouveau document</span>
+                            <span>Telecharger</span>
+                            <span>Visualiser</span>
+                            <span>Commentaire</span>
+                            <span>Modifié le/Par</span>
+                            <span>Actions</span>
+                            <span>Autorisation</span>
+                            <span>Vendeur</span>
+                            <span> <span style="font-weight: bold;">+/-</span> Quantité</span>
+                        </div>
+                        <div class="colonne">
+                            <span style="text-align: left">Bon de commande</span>
+                            <span><input type="text"></span>
+                            <span><i class="fa fa-download"></i></span>
+                            <span><i class="fa fa-search"></i></span>
+                            <span><i class="fa fa-comment"></i></span>
+                            <span><i class="fa fa-user" ></i></span>
+                            <span style="position:relative"><i class="fa fa-pencil" id="js-actions1">
+                                <ul class="ulactions" id="ulactions1">
+                                    <li>
+                                        <a href="">Transférer</a>
+                                    </li>
+                                    <li>
+                                        <a href="">Envoyer</a>
+                                    </li>
+                                    <li>
+                                        <a href="">Supprimer</a>
+                                    </li>
+                                </ul>
+                            </i></span>
+                            <span style="position:relative"><i class="fa fa-check" id="js-autorisation1">
+                                <ul class="ulautorisation" id="ulautorisation1">
+                                    <li>
+                                        <a href="">Autoriser</a>
+                                    </li>
+                                    <li>
+                                        <a href="">Bloquer</a>
+                                    </li>
+                                </ul>
+                            </i></span>
+                            <span><i class="fa fa-shopping-cart"></i></span>
+                            <span><a href="" style="padding-top: 8px;display: block;text-decoration:none;color:#000">Quantité</a></span>
+                        </div>
+                        <div class="colonne">
+                            <span style="text-align: left">Fiche signalétique</span>
+                            <span>
+                                <input type="text">
+                            </span>
+                            <span>
+                                <i class="fa fa-download"></i>
+                            </span>
+                            <span>
+                                <i class="fa fa-search"></i>
+                            </span>
+                            <span>
+                                <i class="fa fa-comment"></i>
+                            </span>
+                            <span>
+                                <i class="fa fa-user"></i>
+                            </span>
+                            <span style="position:relative">
+                                <i class="fa fa-pencil" id="js-actions2">
+                                    <ul class="ulactions" id="ulactions2">
+                                        <li>
+                                            <a href="">Transférer</a>
+                                        </li>
+                                        <li>
+                                            <a href="">Envoyer</a>
+                                        </li>
+                                        <li>
+                                            <a href="">Supprimer</a>
+                                        </li>
+                                    </ul>
+                                </i>
+                            </span>
+                            <span style="position:relative">
+                                <i class="fa fa-check" id="js-autorisation2">
+                                    <ul class="ulautorisation" id="ulautorisation2">
+                                        <li>
+                                            <a href="">Autoriser</a>
+                                        </li>
+                                        <li>
+                                            <a href="">Bloquer</a>
+                                        </li>
+                                    </ul>
+                                </i>
+                            </span>
+                            <span>
+                                <i class="fa fa-shopping-cart"></i>
+                            </span>
+                            <span>
+                                <a href="" style="padding-top: 8px;display: block;text-decoration:none;color:#000">Quantité</a>
+                            </span>
+                        </div>
+                        <div class="colonne">
+                            <span style="text-align: left">Lettre DIAC</span>
+                            <span>
+                                <input type="text">
+                            </span>
+                            <span>
+                                <i class="fa fa-download"></i>
+                            </span>
+                            <span>
+                                <i class="fa fa-search"></i>
+                            </span>
+                            <span>
+                                <i class="fa fa-comment"></i>
+                            </span>
+                            <span>
+                                <i class="fa fa-user"></i>
+                            </span>
+                            <span style="position:relative">
+                                <i class="fa fa-pencil" id="js-actions3">
+                                    <ul class="ulactions" id="ulactions3">
+                                        <li>
+                                            <a href="">Transférer</a>
+                                        </li>
+                                        <li>
+                                            <a href="">Envoyer</a>
+                                        </li>
+                                        <li>
+                                            <a href="">Supprimer</a>
+                                        </li>
+                                    </ul>
+                                </i>
+                            </span>
+                            <span style="position:relative">
+                                <i class="fa fa-check" id="js-autorisation3">
+                                    <ul class="ulautorisation" id="ulautorisation3">
+                                        <li>
+                                            <a href="">Autoriser</a>
+                                        </li>
+                                        <li>
+                                            <a href="">Bloquer</a>
+                                        </li>
+                                    </ul>
+                                </i>
+                            </span>
+                            <span>
+                                <i class="fa fa-shopping-cart"></i>
+                            </span>
+                            <span>
+                                <a href="" style="padding-top: 8px;display: block;text-decoration:none;color:#000">Quantité</a>
+                            </span>
+                        </div>
+                        <div class="colonne">
+                            <span style="text-align: left">Feuille de gestion</span>
+                            <span>
+                                <input type="text">
+                            </span>
+                            <span>
+                                <i class="fa fa-download"></i>
+                            </span>
+                            <span>
+                                <i class="fa fa-search"></i>
+                            </span>
+                            <span>
+                                <i class="fa fa-comment"></i>
+                            </span>
+                            <span>
+                                <i class="fa fa-user"></i>
+                            </span>
+                            <span style="position:relative">
+                                <i class="fa fa-pencil" id="js-actions4">
+                                    <ul class="ulactions" id="ulactions4">
+                                        <li>
+                                            <a href="">Transférer</a>
+                                        </li>
+                                        <li>
+                                            <a href="">Envoyer</a>
+                                        </li>
+                                        <li>
+                                            <a href="">Supprimer</a>
+                                        </li>
+                                    </ul>
+                                </i>
+                            </span>
+                            <span style="position:relative">
+                                <i class="fa fa-check" id="js-autorisation4">
+                                    <ul class="ulautorisation" id="ulautorisation4">
+                                        <li>
+                                            <a href="">Autoriser</a>
+                                        </li>
+                                        <li>
+                                            <a href="">Bloquer</a>
+                                        </li>
+                                    </ul>
+                                </i>
+                            </span>
+                            <span>
+                                <i class="fa fa-shopping-cart"></i>
+                            </span>
+                            <span>
+                                <a href="" style="padding-top: 8px;display: block;text-decoration:none;color:#000">Quantité</a>
+                            </span>
+                        </div>
+                        <div class="colonne">
+                            <span style="text-align: left">Contrat d'entretien</span>
+                            <span>
+                                <input type="text">
+                            </span>
+                            <span>
+                                <i class="fa fa-download"></i>
+                            </span>
+                            <span>
+                                <i class="fa fa-search"></i>
+                            </span>
+                            <span>
+                                <i class="fa fa-comment"></i>
+                            </span>
+                            <span>
+                                <i class="fa fa-user"></i>
+                            </span>
+                            <span style="position:relative">
+                                <i class="fa fa-pencil" id="js-actions5">
+                                    <ul class="ulactions" id="ulactions5">
+                                        <li>
+                                            <a href="">Transférer</a>
+                                        </li>
+                                        <li>
+                                            <a href="">Envoyer</a>
+                                        </li>
+                                        <li>
+                                            <a href="">Supprimer</a>
+                                        </li>
+                                    </ul>
+                                </i>
+                            </span>
+                            <span style="position:relative">
+                                <i class="fa fa-check" id="js-autorisation5">
+                                    <ul class="ulautorisation" id="ulautorisation5">
+                                        <li>
+                                            <a href="">Autoriser</a>
+                                        </li>
+                                        <li>
+                                            <a href="">Bloquer</a>
+                                        </li>
+                                    </ul>
+                                </i>
+                            </span>
+                            <span>
+                                <i class="fa fa-shopping-cart"></i>
+                            </span>
+                            <span>
+                                <a href="" style="padding-top: 8px;display: block;text-decoration:none;color:#000">Quantité</a>
+                            </span>
+                        </div>
+                        <div class="colonne">
+                            <span style="text-align: left">Autres</span>
+                            <span>
+                                <input type="text">
+                            </span>
+                            <span>
+                                <i class="fa fa-download"></i>
+                            </span>
+                            <span>
+                                <i class="fa fa-search"></i>
+                            </span>
+                            <span>
+                                <i class="fa fa-comment"></i>
+                            </span>
+                            <span>
+                                <i class="fa fa-user"></i>
+                            </span>
+                            <span style="position:relative">
+                                <i class="fa fa-pencil" id="js-actions5">
+                                    <ul class="ulactions" id="ulactions5">
+                                        <li>
+                                            <a href="">Transférer</a>
+                                        </li>
+                                        <li>
+                                            <a href="">Envoyer</a>
+                                        </li>
+                                        <li>
+                                            <a href="">Supprimer</a>
+                                        </li>
+                                    </ul>
+                                </i>
+                            </span>
+                            <span style="position:relative">
+                                <i class="fa fa-check" id="js-autorisation5">
+                                    <ul class="ulautorisation" id="ulautorisation5">
+                                        <li>
+                                            <a href="">Autoriser</a>
+                                        </li>
+                                        <li>
+                                            <a href="">Bloquer</a>
+                                        </li>
+                                    </ul>
+                                </i>
+                            </span>
+                            <span>
+                                <i class="fa fa-shopping-cart"></i>
+                            </span>
+                            <span>
+                                <a href="" style="padding-top: 8px;display: block;text-decoration:none;color:#000">Quantité</a>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="box-bottom-info-content3" id="content3">a</div>
+            <div class="box-bottom-info-content4" id="content4">a</div>
+            <div class="box-bottom-info-content5" id="content5">
+                <div class="grid">
+                    <div class="gestion">
+                        <h1>definition de la gestion</h1>
+                        <div class="gestion1">
+                            <div class="premier">
+                                <p>
+                                    <span>Cas spécifique</span>: Lorem ipsum <br>
+                                    <span>Origine</span>: Lorem ipsum <br>
+                                    <span>Loueur</span>: Lorem ipsum <br>
+                                    <span>Intermédiaire</span>: Lorem ipsum <br> <br>
+                                    <span>Transport</span>: Lorem ipsum <br>
+                                    <span>Date de facture</span>: 00/00/0000 <br>
+                                    <span>Montant</span>: 0000<br>
+                                    <span>Bonus</span>: 0000<br>
+                                    <span>Tarif achat</span>: 0000<br>
+                                    <span>Tarif vente</span>: 0000<br>
+                                </p>
+                            </div>
+                            <div class="deuxieme">
+                                <p>
+                                    <span>Prix catalogue</span>: Lorem ipsum <br>
+                                    <span>Options</span>: Lorem ipsum <br>
+                                    <span>Gravage</span>: Lorem ipsum <br>
+                                    <span>Accessoires</span>: Lorem ipsum <br>
+                                    <span>Transport</span>: Lorem ipsum <br>
+                                    <span>Surestimation</span>: Lorem ipsum <br>
+                                    <span>Reprises</span>: Lorem ipsum <br>
+                                    <span>Super Bonus</span>: Lorem ipsum <br>
+                                    <span>Provision BB</span>: Lorem ipsum <br>
+                                    <span>Vente Secteur</span>: Lorem ipsum <br>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <h1>client</h1>
+                        <p>
+                            <span>Nom de client ISIS:</span>Lorem ipsum <br>
+                            <span>Nom Sté Cliente:</span>Lorem ipsum <br>
+                            <span>Nom Conducteur:</span>Lorem ipsum <br>
+                            <span>Nom du Loueur:</span>Lorem ipsum <br>
+                            <span>N° Loueur:</span>0000 <br><br>
+                            <span>Num DIAC:</span>0000<br>
+                            <span>Num Diac LOC:</span>0000<br>
+                        </p>
+                    </div>
+                    <div>
+                        <h1>synthese (HT)</h1>
+                        <p>
+                            <span>Cout de Négo:</span>00000 <br>
+                            <span>Com. Vendeur:</span>00000 <br>
+                            <span>Com. Agent:</span>00000 <br>
+                            <span>Com. Intermédiaire:</span>00000 <br>
+                            <span>Dont:</span>00000 <br>
+                            <span>Com. Prestation:</span>00000 <br>
+                            <span>Com. Financement:</span>00000 <br><br>
+                            <span>Marge Restante:</span>00000 <br>
+                            <span>Marge Nette:</span>00000 <br>
+                        </p>                        
+                    </div>
+                    <div class="gestion">
+                        <h1>definition de la gestion</h1>
+                        <div class="gestion1">
+                            <div class="premier">
+                                <p>
+                                    <span>Nom du Client ISIS</span>: Lorem ipsum <br>
+                                    <span>Nom Sté Cliente</span>: Lorem ipsum <br>
+                                    <span>Nom Conducteur</span>: Lorem ipsum <br>
+                                    <span>Nom du Loueur</span>: Lorem ipsum <br>
+                                    <span>N° Loueur</span>000 <br><br>
+                                    <span>Commune</span>: Lorem ipsum <br>
+                                    <span>Téléphone</span>00000000 <br>
+                                    <span>Modèle</span>: Lorem ipsum <br>
+                                    <span>Version</span>: Lorem ipsum <br>
+                                </p>
+                            </div>
+                            <div class="deuxieme">
+                                <p>
+                                    <span>Date de liv souhaitée</span>: 00/00/0000 <br>
+                                    <span>Prix catalogue</span>000000 <br>
+                                    <span>Options</span>: Lorem ipsum <br>
+                                    <span>Gravage</span>: Lorem ipsum <br>
+                                    <span>Contrat service</span>: Lorem ipsum <br>
+                                    <span>Accessoires</span>: Lorem ipsum <br>
+                                    <span>Transport</span>: Lorem ipsum <br>
+                                    <span>Surestimation</span>: Lorem ipsum <br>
+                                    <span>Reprises</span>: Lorem ipsum <br>
+                                    <span>Super Bonus</span>: Lorem ipsum <br>
+                                    <span>Provision BB</span>: Lorem ipsum <br>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <h1>Aide constructeur</h1>
+                        <div class="bonus">
+                            <span>% Bonus MOD</span>
+                            <input type="text">
+                        </div>
+
+                        <span>AIDE ISIS</span>
+                        <div class="stoc">
+                            <div>
+                                <input type="checkbox" checked="">
+                                <div>
+                                    <span>STOC</span>
+                                    <span>000.00</span>
+                                </div>
+                            </div>
+                            
+                            <div>
+                                <input type="checkbox">
+                                <div>
+                                    <span>STOC</span>
+                                    <span>000.00</span>
+                                </div>
+                            </div>
+                            <div>
+                                <input type="checkbox">
+                                <div>
+                                    <span>STOC</span>
+                                    <span>000.00</span>
+                                </div>
+                            </div>
+                            <div>
+                                <input type="checkbox">
+                                <div>
+                                    <span>STOC</span>
+                                    <span>000.00</span>
+                                </div>
+                            </div>
+                        </div>                       
+                    </div>
+                </div>    
+            </div>
+        </div>
+    </div>
+</main>
+<!-- Start Main -->
+
+<!-- Start Footer -->
+<footer>
+    Copyright © 2018 EFFI-COM.All Rights Reserved
+</footer>
+<!-- End Footer -->
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>
